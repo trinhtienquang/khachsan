@@ -1,6 +1,4 @@
-.menu-nav {
-    margin: 0 auto;
-}
+/* menu */
 #menu{
     background-color: black;
     height: 88px;
@@ -27,10 +25,208 @@
     width: 110px;
     padding: 6px;
 }
+.menu-nav {
+    margin: 0 auto;
+}
+/* end menu */
 
-#banner{
+/* slider */
+#slider{
     margin-top: 88px;
 }
+/* end slider */
+
+/* checknow */
+#checknow .container{
+    position: relative;
+    width: 1100px;
+    margin-top: -97px;
+}
+#checknow .check{
+    background-color: black;
+}
+#checknow input{
+    border: none;
+    color: #937438;
+    background-color: black;
+    font-family: Montserrat-Medium;
+}
+#checknow select{
+    border: none;
+    color: #937438;
+    background-color: black;
+    font-family: Montserrat-Medium;
+}
+#checknow .check button{
+    border: none;
+    color: white;
+    background-color: #937438;
+    height: 48px;
+    width: 130px;
+    font-family: Montserrat-Medium;
+}
+/* end checknow */
+
+/* Accommodations */
+#accommodations{
+    background-color: black;
+}
+#accommodations .container{
+    width: 1110px;
+    padding: 100px 0px 50px;
+}
+#accommodations h3{
+    color: white;
+    font-family: Montserrat-Regular;
+    font-weight: bold;
+}
+#accommodations .img-1{
+    position: relative;
+    margin-top: 90px;
+}
+#accommodations .img-2{
+    position: absolute;
+    top: -90px;
+    right: 0;
+}
+#accommodations button{
+    border: none;
+    color: white;
+    background-color: #937438;
+    height: 48px;
+    width: 140px;
+    font-family: Montserrat-Medium;
+}
+/* end Accommodations */
+
+/* room */
+#room{
+    background-color: #181A1B;
+}
+#room .container{
+    width: 1110px;
+    padding-top:80px ;
+}
+#room a{
+    color: white;
+    text-align: center;
+    width: 100px;
+    font-family:Montserrat-SemiBold;
+}
+#room h3{
+    color: white;
+    font-family: Montserrat-Regular;
+    font-weight: bold;
+}
+#room .img{
+    position: relative;
+}
+#room .img img{
+    -webkit-filter: brightness(70%);
+}
+#room .content{
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    color: white;
+    font-family: Montserrat-SemiBold;
+}
+#room .content .trangtri{
+    width: 160%;
+    text-align: center;
+    border: 1px solid #937438;
+    background-color: #937438;
+}
+#room .content .trangtri1{
+    width: 335%;
+    text-align: center;
+    border: 1px solid #937438;
+    background-color: #937438;
+}
+/* end room */
+
+/* deals */
+#deals{
+    color: white;
+}
+#deals .img{
+    position: relative;
+    height: 450px;
+}
+#deals .img img{
+    -webkit-filter: brightness(70%);
+}
+#deals .box {
+    position: absolute;
+    top: 0;
+    padding: 190px 0px 0px 92px;
+    font-family: Montserrat-Bold;
+}
+
+/* end deals */
+
+/* service */
+#service {
+    background-color: #181A1B;
+    color: white;
+}
+#service .img{
+    align-items: center;
+}
+#service .img1{
+    height: 300px;
+}
+#service h5{
+    font-family: Montserrat-SemiBold;
+}
+#service p{
+    font-size: 14px;
+    font-family: Montserrat-Regular;
+    color: #717272;
+}
+#service h3{
+    font-family: Montserrat-SemiBold;
+}
+#service .bg-right{
+    position: relative;
+    z-index: 1;
+}
+#service .bg-right::before{
+    position: absolute;
+    content: '';
+    right: 400px;
+    top: -10%;
+    width: 70%;
+    height: 120%;
+    background: #1C1F20;
+    z-index: -1;
+}
+#service .bg-left{
+    position: relative;
+    z-index: 1;
+}
+#service .bg-left::before{
+    position: absolute;
+    content: '';
+    left: 400px;
+    top: -10%;
+    width: 70%;
+    height: 120%;
+    background: #1C1F20;
+    z-index: -1;
+}
+#service .mb-100{
+    margin-bottom: 100px;
+}
+#service button{
+    border: 2px solid #937438;
+    background-color: #1C1F20;
+    color: #937438;
+    font-family: Montserrat-SemiBold;
+}
+/* end service */
+
+/* footer */
 #footer{
     background-color: black;
     color: #fff;
@@ -103,3 +299,4 @@
     background-color: #937438;
     border: none;
 }
+/* end footer */
