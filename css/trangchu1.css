@@ -138,7 +138,7 @@
     background-color: #937438;
 }
 #room .content .trangtri1{
-    width: 335%;
+    width: 310%;
     text-align: center;
     border: 1px solid #937438;
     background-color: #937438;
@@ -159,7 +159,7 @@
 #deals .box {
     position: absolute;
     top: 0;
-    padding: 190px 0px 0px 92px;
+    padding: 190px 0px 0px 210px;
     font-family: Montserrat-Bold;
 }
 
@@ -169,6 +169,9 @@
 #service {
     background-color: #181A1B;
     color: white;
+}
+#service .container{
+    width: 1110px;
 }
 #service .img{
     align-items: center;
@@ -194,7 +197,7 @@
 #service .bg-right::before{
     position: absolute;
     content: '';
-    right: 400px;
+    right: 330px;
     top: -10%;
     width: 70%;
     height: 120%;
@@ -208,7 +211,7 @@
 #service .bg-left::before{
     position: absolute;
     content: '';
-    left: 400px;
+    left: 330px;
     top: -10%;
     width: 70%;
     height: 120%;
