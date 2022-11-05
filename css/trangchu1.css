@@ -28,6 +28,29 @@
 .menu-nav {
     margin: 0 auto;
 }
+
+#menu .dropdown button{
+    background-color: black;
+}
+#menu .dropdown ul{
+    left: 50%;
+    transform: translate(-50%);
+    background-color: black;
+    padding: 10px;
+}
+#menu .dropdown ul li{
+    font-family: Montserrat-Bold;
+}
+#menu .dropdown ul li a{
+    color: #EBB853;
+    font-size: 12px;
+    padding: 0px;
+    margin-top: 20px;
+}
+#menu .dropdown .icon{
+    height: 30px;
+    width: 30px;
+}
 /* end menu */
 
 /* slider */
