@@ -28,6 +28,7 @@
 .menu-nav {
     margin: 0 auto;
 }
+
 #menu .dropdown button{
     background-color: black;
 }
@@ -52,24 +53,21 @@
 }
 /* end menu */
 
-/* banner */
 #banner{
     margin-top: 88px;
     color: white;
 }
 #banner .img{
     position: relative;
-    height: 450px;
 }
 #banner .img img{
-    -webkit-filter: brightness(70%);
-    height: 305px;
+    -webkit-filter: brightness(30%);
 }
 #banner .box {
     position: absolute;
+    top: 35%;
     left: 50%;
-	top: 50%;
-	transform: translate(-50%, -50%);
+    transform: translate(-50%,-50%);
 }
 #banner .box .trangtri{
     border: 2px solid white;
@@ -79,91 +77,156 @@
     margin: 0 auto;
 }
 
-/* end banner */
+#step .a{
+    width: 20%;
+    margin: -95px auto 0px;
+}
+#step .a li a{
+    background-color: transparent;
+    color: white;
+}
+#step .a li span{
+    background-color: #937438;
+    border-color: #937438;
+    color: #fff;
+}
+#step .b{
+    width: 26%;
+    margin: 0 auto;
+}
+#step .b li a{
+    background-color: transparent;
+    color: white;
+    font-size: 12px;
+}
+#step .b li span{
+    background-color: transparent;
+    color: white;
+    font-size: 12px;
+}
+#step .b li{
+    width: 120px;
+    border: none;
+    text-align: center;    
+}
+#slogan {
+    background-color: #181A1B;
+    color: white;
+    /* padding: 30px; */
+    font-family:Montserrat-Regular;
+}
 
-/* content */
-#content{
+#slogan .img {
+    align-items: center;
+}
+
+#form{
     background-color: #181A1B;
     color: white;
 }
-#content .container{
-    width: 1110px;
-}
-#content img{
-    height: 450px;
-}
-#content p{
-    font-family:Montserrat-Regular;
-    margin-top: 16px;
-}
-/* end content */
 
-/* service */
+#form .container input{
+    margin-left:3px ;
+    margin-bottom: 30px;
+    padding: 5px;
+    width: 500px;
+    border: 1px solid #937438;
+    background-color: #181A1B;
+}
+
+#form .container{
+    padding-left: 80px;
+}
+
+#form .container .tt{
+    position: relative;
+}
+
+#form .container button{
+    margin: 1px;
+    padding: 3px;
+    position: absolute;
+    background-color: #181A1B;
+    color: #937438;
+    border: none;
+    left: 430px;
+}
+
 #service {
     background-color: #181A1B;
     color: white;
-    padding-top: 100px;
+    /* padding-top: 30px; */
 }
-#service .container{
-    width: 1110px;
+
+#service .container img{
+    /* align-items: center; */
+    height: 60px;
 }
-#service .img{
+#service .container .img{
     align-items: center;
 }
-#service .img1{
-    height: 300px;
+#service .dichvu{
+    margin-left: 70px;
+    font-family:Montserrat-SemiBold;
 }
-#service h5{
-    font-family: Montserrat-SemiBold;
-}
-#service p{
-    font-size: 14px;
-    font-family: Montserrat-Regular;
-    color: #717272;
-}
-#service h3{
-    font-family: Montserrat-SemiBold;
-}
-/* #service .bg-right{
-    position: relative;
-    z-index: 1;
-}
-#service .bg-right::before{
-    position: absolute;
-    content: '';
-    right: 330px;
-    top: -10%;
-    width: 70%;
-    height: 120%;
-    background: #1C1F20;
-    z-index: -1;
-}
-#service .bg-left{
-    position: relative;
-    z-index: 1;
-}
-#service .bg-left::before{
-    position: absolute;
-    content: '';
-    left: 330px;
-    top: -10%;
-    width: 70%;
-    height: 120%;
-    background: #1C1F20;
-    z-index: -1;
-} */
-#service .mb-100{
-    margin-bottom: 100px;
-}
-#service button{
-    border: 2px solid #937438;
-    background-color: #1C1F20;
-    color: #937438;
-    font-family: Montserrat-SemiBold;
-}
-/* end service */
 
-/* footer */
+#huyphong {
+    background-color: #181A1B;
+    color: white;
+    /* padding-top: 30px; */
+}
+
+#huyphong .container img{
+    /* align-items: center; */
+    height: 60px;
+}
+#huyphong .container .img{
+    align-items: center;
+}
+#huyphong .phi{
+    margin: 20px 170px;
+}
+
+#udai{
+    background-color: #181A1B;
+    color: white;
+    /* padding-top: 30px; */
+}
+
+#udai .container img{
+    /* align-items: center; */
+    height: 60px;
+    /* margin-top: 10px; */
+}
+#udai .container .img{
+    align-items: center;
+}
+#udai .ud{
+    margin: 20px;
+    margin-left: 80px;
+}
+#udai .ud .img{
+    align-items: center;
+}
+#udai .ud .content{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+#udai .ud button{
+    margin-top: 20px;
+    
+}
+
+#tieptuc{
+    background-color: #181A1B;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-right: 110px;
+}
+
+
 #footer{
     background-color: black;
     color: #fff;
@@ -236,4 +299,3 @@
     background-color: #937438;
     border: none;
 }
-/* end footer */

@@ -28,6 +28,7 @@
 .menu-nav {
     margin: 0 auto;
 }
+
 #menu .dropdown button{
     background-color: black;
 }
@@ -52,24 +53,21 @@
 }
 /* end menu */
 
-/* banner */
 #banner{
     margin-top: 88px;
     color: white;
 }
 #banner .img{
     position: relative;
-    height: 450px;
 }
 #banner .img img{
-    -webkit-filter: brightness(70%);
-    height: 305px;
+    -webkit-filter: brightness(30%);
 }
 #banner .box {
     position: absolute;
+    top: 35%;
     left: 50%;
-	top: 50%;
-	transform: translate(-50%, -50%);
+    transform: translate(-50%,-50%);
 }
 #banner .box .trangtri{
     border: 2px solid white;
@@ -78,92 +76,94 @@
     width: 2px;
     margin: 0 auto;
 }
-
-/* end banner */
-
-/* content */
-#content{
-    background-color: #181A1B;
+#step .a{
+    width: 20%;
+    margin: -95px auto 0px;
+}
+#step .a li a{
+    background-color: transparent;
     color: white;
 }
-#content .container{
-    width: 1110px;
+#step .a li span{
+    background-color: #937438;
+    border-color: #937438;
+    color: #fff;
 }
-#content img{
-    height: 450px;
+#step .b{
+    width: 26%;
+    margin: 0 auto;
 }
-#content p{
-    font-family:Montserrat-Regular;
-    margin-top: 16px;
-}
-/* end content */
-
-/* service */
-#service {
-    background-color: #181A1B;
+#step .b li a{
+    background-color: transparent;
     color: white;
-    padding-top: 100px;
+    font-size: 12px;
 }
-#service .container{
-    width: 1110px;
+#step .b li span{
+    background-color: transparent;
+    color: white;
+    font-size: 12px;
 }
-#service .img{
-    align-items: center;
+#step .b li{
+    width: 120px;
+    border: none;
+    text-align: center;    
 }
-#service .img1{
-    height: 300px;
-}
-#service h5{
-    font-family: Montserrat-SemiBold;
-}
-#service p{
-    font-size: 14px;
-    font-family: Montserrat-Regular;
-    color: #717272;
-}
-#service h3{
-    font-family: Montserrat-SemiBold;
-}
-/* #service .bg-right{
-    position: relative;
-    z-index: 1;
-}
-#service .bg-right::before{
-    position: absolute;
-    content: '';
-    right: 330px;
-    top: -10%;
-    width: 70%;
-    height: 120%;
-    background: #1C1F20;
-    z-index: -1;
-}
-#service .bg-left{
-    position: relative;
-    z-index: 1;
-}
-#service .bg-left::before{
-    position: absolute;
-    content: '';
-    left: 330px;
-    top: -10%;
-    width: 70%;
-    height: 120%;
-    background: #1C1F20;
-    z-index: -1;
-} */
-#service .mb-100{
-    margin-bottom: 100px;
-}
-#service button{
-    border: 2px solid #937438;
-    background-color: #1C1F20;
-    color: #937438;
-    font-family: Montserrat-SemiBold;
-}
-/* end service */
 
-/* footer */
+#Time .container{
+    margin-left: 570px;
+}
+
+
+#center {
+    padding-left: 150px;
+}
+
+#center .container img{
+    height: 500px;
+    width: 1140px;
+}
+#center .container .img img{
+    height: 25px;
+    width: 35px;
+}
+#loaiphong{
+    padding-left: 150px;
+}
+
+#pttt{
+    padding-left: 150px;
+}
+
+#pttt .nganhang img{
+    width: 200px;
+    height: 45px;
+    margin-left: 50px;
+}
+
+#chon{
+    padding-left: 150px;
+}
+
+#chon label{
+    padding-left: 50px;
+}
+
+#chon input{
+    margin-left: 300px;
+}
+
+#button{
+    background-color: #181A1B;
+    padding-left: 900px;
+}
+
+#button button{
+   height: 40px;
+    width: 300px;
+    background-color: #937438;
+    color: white;
+}
+
 #footer{
     background-color: black;
     color: #fff;
@@ -236,4 +236,3 @@
     background-color: #937438;
     border: none;
 }
-/* end footer */
