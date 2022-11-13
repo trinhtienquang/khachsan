@@ -159,6 +159,15 @@
     font-family:Montserrat-Regular;
     text-align: justify;
 }
+#detail button{
+    border: none;
+    color: white;
+    background-color: #937438;
+    height: 48px;
+    width: 200px;
+    margin-top: 10px;
+    font-family: Montserrat-Medium;
+}
 /* end detail */
 
 /* checknow */
